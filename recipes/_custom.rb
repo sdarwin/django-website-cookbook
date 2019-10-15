@@ -31,7 +31,7 @@ template '/home/django/configs/.env' do
 end
 
 execute "copy_env_file" do
-  command "cp /home/django/configs/.env /home/django/repo/.env"
+  command "cp /home/django/configs/.env /home/django/repo/mysite/.env"
   cwd "/home/django/"
   user "django"
   group "django"
