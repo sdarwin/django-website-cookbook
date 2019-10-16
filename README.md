@@ -1,4 +1,3 @@
-# tutorial
+# Django Website Cookbook
 
-TODO: Enter the cookbook description here.
-
+A wrapper cookbook for https://github.com/UAlaska-IT/django_platform
