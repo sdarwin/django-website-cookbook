@@ -1,5 +1,5 @@
 
-default['http_platform']['admin_email'] = 'samueldarwin@yahoo.com'
+default['http_platform']['admin_email'] = 'sam@example.com'
 default['http_platform']['cert']['organization'] = 'ACME Corp'
 default['http_platform']['cert']['org_unit'] = 'IT'
 default['http_platform']['www']['additional_aliases'] = {'django.logchart.com' => { 'log_level' => 'info' }}
