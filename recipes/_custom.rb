@@ -14,7 +14,7 @@ end
 
 #vault data bag
 #auth = ChefVault::Item.load('vaultbag','auth')
-auth = chef_vault_item('vaultbag','auth')
+auth = chef_vault_item(node['django_platform']['git_ssh_key']['vault_data_bag'],'auth')
 
 template '/home/django/configs/.env' do
   variables(

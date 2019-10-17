@@ -1,5 +1,5 @@
 {
-  "revision_id": "8276345414f1621d244e45a4257979f4670fd4050d8d65fd50fb8171207c0881",
+  "revision_id": "7310e5ef9fa4925bc75f1a93dcc2d522a8b04ddae7a4703c17919e7e4aed8fa4",
   "name": "django-website",
   "run_list": [
     "recipe[django-website::default]"
@@ -54,14 +54,14 @@
     },
     "django-website": {
       "version": "0.1.0",
-      "identifier": "e66473ff3d8be43aef3be7e2511cfec63e79f508",
-      "dotted_decimal_identifier": "64849694009691108.16588589221695772.280127405159688",
+      "identifier": "4ab4f13f8aa63bd1ae88174b13759450279465fb",
+      "dotted_decimal_identifier": "21028096522757691.59020169662108533.163071982331387",
       "source": ".",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "https://github.com/sdarwin/django-website-cookbook.git",
-        "revision": "6074d83829940c895c1aad3443114daba1356d8a",
+        "revision": "2ebb01686cf80625505b75a4f49cd1680e269747",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
